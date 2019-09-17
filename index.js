@@ -28,7 +28,7 @@ function addNewElementAsLi() {
 function clearEmployeeListOnLinkClick() {
   const clearList = document.querySelector('a')
   clearList.addEventListener('click',
-    function(clickEvent) {
+    function(event) {
       let ul = document.querySelector('ul')
       ul.innerHTML = ''
   })
